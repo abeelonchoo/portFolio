@@ -1,0 +1,143 @@
+body{
+    background-color: black;
+    height: 100vh;
+    margin:0;
+    max-width: 100vw;
+}
+
+.navbar{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    height: 7vh;
+    gap:20px;
+     justify-content: flex-end;
+     padding: 0px 20px;
+}
+
+a{
+      font-family: "Comfortaa", sans-serif;
+    text-decoration: none;
+    color:black;
+    transition: text-decoration ease ;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+
+
+@keyframes desplazar {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(100%);
+    }
+}
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    border-right: 5px solid white;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 2s steps(18) forwards,
+                  blink 0.5s step-end infinite 2s;
+}
+
+@keyframes typing {
+    to { 
+        width: 30%;
+        
+    }
+}
+
+@keyframes blink {
+    0%, 100% { border-right-color: white; }
+    50% { border-right-color: transparent; }
+}
+
+h2{
+    margin-top: -5vh;
+    text-align: center;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    transition: letter-spacing 1s ease;
+}
+
+h2:hover{
+    letter-spacing: 10px;
+}
+
+p{
+    text-align: center;
+    color: white;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 100;
+        margin-top:10vh;
+}
+
+h3{
+    color: white;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+}
+.skills{
+   height: 10vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    gap: 15px;
+    font-family: 'DM Sans', sans-serif;
+    color: white;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+h5{
+    border: 2px solid white;
+    padding:10px 20px;
+}
+
+h5:hover{
+    background-color: white;
+    color:black;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 300;
+    margin-top: 15vh;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.proyectos{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap:150px;
+    background-color: white;
+}
+
+img {
+        margin-top: 10vh;
+    }
