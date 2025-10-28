@@ -2,7 +2,8 @@
 
 Portfolio personal minimalista en blanco y negro con efectos hover elegantes.
 
-![Portfolio Preview](screenshot.png)
+<img width="1358" height="678" alt="image" src="https://github.com/user-attachments/assets/c3ec9f15-fc8a-403a-8393-713daeda4815" />
+
 
 ## ✨ **Características**
 
