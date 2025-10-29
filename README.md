@@ -31,7 +31,7 @@ cd portFolio
 open index.html
 ```
 
-## ✨** Efectos Hover**
+## ✨**Efectos Hover**
 
 El portfolio incluye varios efectos hover:
 - Transiciones suaves en enlaces y botones
